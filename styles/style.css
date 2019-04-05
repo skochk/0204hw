@@ -62,5 +62,11 @@ p:after{
 }
 
 a:before{
-	content: url("https://img.icons8.com/metro/420/link.png")/* height= 10px;*/
+	content: '';
+	background-image:url("https://img.icons8.com/metro/420/link.png");/* height= 10px;*/
+	position: absolute;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+   
 }
