@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-style: Arial, sans-serif;
+	font-size: 25px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+
+.colorblock1{
+	height: 100px;
+	width: 200px;
+	background-color: red;
+}
+
+.colorblock2{
+	height: 100px;
+	width: 200px;
+	background-color: blue;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.textbox{
+	text-align: center;
+	margin-top: 200px;
+}
+
+.textbox:before{
+	content: url('https://i.imgur.com/iSXiBwQ.jpg'); 
+}
+
+
+.textbox:after{
+	content: url('https://i.imgur.com/iSXiBwQ.jpg'); 
+}
+p{
+	font-weight: bold;
+}
+p:before {  
+    content: open-quote;  
+}  
+
+p:after{
+	content: close-quote; 
+}
+
+a:before{
+	content: url("https://img.icons8.com/metro/420/link.png")/* height= 10px;*/
+}
